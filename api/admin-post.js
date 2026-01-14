@@ -5,7 +5,7 @@ const redis = Redis.fromEnv();
 export default async function handler(req, res) {
   try {
     const { token } = req.query;
-    if (token !== "daiana-2026") {
+    if (token !== "naty-2026") {
       return res.status(401).json({ ok: false, error: "Token inválido" });
     }
 
