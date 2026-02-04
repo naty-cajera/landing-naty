@@ -8,14 +8,14 @@
     {
       "src": "^/$",
       "has": [
-        { "type": "host", "value": "admin.naty-insomnia.online" }
+        { "type": "host", "value": "admin.insomnialudmi.online" }
       ],
       "dest": "/public/admin.html"
     },
     {
       "src": "^/admin$",
       "has": [
-        { "type": "host", "value": "admin.naty-insomnia.online" }
+        { "type": "host", "value": "admin.insomnialudmi.online" }
       ],
       "dest": "/public/admin.html"
     },
